@@ -1,6 +1,7 @@
 package TicketRelated;
 import com.workingtech.enums.Proffesion;
 import com.workingtech.interfaces.IHuman;
+import food.FoodMenu;
 import passengers.PassengersProfile;
 import planes.Plane;
 
@@ -11,6 +12,7 @@ public class Flights extends FlightDirections {
     private boolean delay;
     private int flightNumber;
     private Plane Plane;
+    private FoodMenu foodMenu;
     //private PassengersProfile passengersProfile;
 
     //private Passengers[] Passengers;
